@@ -1,0 +1,35 @@
+.product-detail {
+  padding: 20px;
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:5px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+h2, p{
+  text-align: center;
+}
+
+strong{
+  text-align: center;
+}
+
+img{
+  width: 50px;
+}
+
+.product-detail p, h2{
+  margin-bottom: 30px;
+}
